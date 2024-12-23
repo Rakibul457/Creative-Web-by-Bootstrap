@@ -1,0 +1,31 @@
+
+    @media only screen and (min-width: 1001px) {
+        /* tablet 1001 - unlimited */
+        .card-item {
+          width: 24.5%;
+        }
+      }
+      
+      @media only screen and (max-width: 1000px) {
+        /* tablet 801 - 1000 */
+        .card-item {
+          width: 32%;
+        }
+      }
+      
+      @media only screen and (max-width: 800px) {
+        /* tablet 501 - 800 */
+        .card-item {
+          width: 49%;
+        }
+      }
+      
+      @media only screen and (max-width: 500px) {
+        /* mobile 0 - 500 */
+        .card-item {
+          width: 100%;
+        }
+      }
+      
+      /* responsive part end */
+      
